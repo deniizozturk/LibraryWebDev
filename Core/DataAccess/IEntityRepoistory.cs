@@ -13,7 +13,7 @@ namespace Core.DataAccess
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);
-        IList<TEntity> GetList(Expression<Func<TEntity, bool>> filter = null);
+        
         
     }
 }
